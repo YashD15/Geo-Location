@@ -1,4 +1,4 @@
-# Project Name: GeoIP Location Fetcher
+# Geo Location : IP Location Fetcher
 
 ## Description:
 This project utilizes the GeoJS API to fetch users' IP address, country, state, city, latitude, and longitude information based on their IP address.
@@ -14,6 +14,7 @@ This project utilizes the GeoJS API to fetch users' IP address, country, state, 
 
 ## Credits:
 Yash Dhavde
+
 This project is inspired by the GeoJS API and utilizes its services to fetch IP geolocation information.
 
 ## License:
