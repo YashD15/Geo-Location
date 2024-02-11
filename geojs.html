@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GeoJS API</title>
+  <link rel="Website Icon" href="icon.png">
+  <link rel="stylesheet" href="geojs_style.css">
+</head>
+<body>
+  <script type="text/javascript" src="geojs_script.js"></script>
+
+<!-- Search Frame -->
+<div id="search"><center>
+<div class="Group1" style="width: 500px; height: 500px; position: relative">
+  <div class="Container0"></div>
+  <img id="animated" class="animate" style="width: 259px; height: 259px; left: 120px; top: 50px; position: absolute" src="search.png"/>
+  <button id="finder" onclick="fetchGeolocation()" class="search">SEARCH</button>
+</div></center>
+</div>
+
+<!-- Main UI Frame -->
+<div id="mainFrame" style="display: none;"><center>
+<div class="Group2" style="width: 500px; height: 700px; position: relative">
+
+  <div class="Container"></div>
+  <div style="width: 420px; height: 532px; left: 50px; top: 32px; position: absolute">
+
+    <!-- Flag and Name -->
+    <img id="flag" class="Flag"></img>
+    <div id="country" class="CountryName">country_name</div>
+    
+    <!-- DisplayText -->
+    <div id="ip" class="dataText" style="left: 41px; top: 268px">ip_add</div>
+    <div id="region" class="dataText" style="left: 68px; top: 305px">state_name</div>
+    <div id="city" class="dataText" style="left: 68px; top: 340px">city_name</div>
+    <div id="latitude" class="dataText" style="left: 100px; top: 375px">latitude</div>
+    <div id="longitude" class="dataText" style="left: 115px; top: 410px">longitude</div>
+    <div id="asn" class="dataText" style="left: 60px; top: 445px">asn_number</div>
+    <div id="org" class="dataText" style="left: 140px; top: 480px">org_name</div>
+    <div id="timezone" class="dataText" style="left: 120px; top: 515px">time_zone</div>
+    
+    <!-- Labels -->
+    <div class="labels" style="top: 268px">IP: </div>
+    <div class="labels" style="top: 305px">State:</div>
+    <div class="labels" style="top: 340px">City:</div>
+    <div class="labels" style="top: 375px">Latitude:</div>
+    <div class="labels" style="top: 410px">Longitude:</div>
+    <div class="labels" style="top: 445px">ASN:</div>
+    <div class="labels" style="top: 480px">Organization:</div>
+    <div class="labels" style="top: 515px">Timezone:</div>
+    
+  </div>
+</div></center>
+</div>
+
+</body>
+</html>
